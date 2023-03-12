@@ -1,0 +1,48 @@
+.latest-bollywood{
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+.bollywoodTiles{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
+}
+title{
+    color: black;
+}
+img{
+    width:50%;
+    height: 50%;
+}
+@media (max-width:750px){
+    .bollywoodTiles{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .latest-bollywood{
+        width: 100%;
+    }
+}
+@media (max-width:450px){
+    .bollywoodTiles{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .latest-bollywood{
+        width: 100%;
+    }
+}
+.full-view{
+    width: 70%;
+    height: 800px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: x-large;
+}
